@@ -7,10 +7,10 @@ class Mille < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/makinzm/mille/releases/download/v0.0.5/mille-0.0.5-aarch64-apple-darwin.tar.gz"
-      sha256 "562ab0106bade52f52285f2a9d4bccd595a087a0c4720e41d7c1596e71a064b4"
+      sha256 "0f486391b867169299addc53e971fad9500c0947ec032f513cfb9a33d4e4b970"
     else
       url "https://github.com/makinzm/mille/releases/download/v0.0.5/mille-0.0.5-x86_64-apple-darwin.tar.gz"
-      sha256 "1456898d7271d59db8bc7b475e51627aa1c9bc4ae1cedb27a21addee13c746da"
+      sha256 "c86a352a7af31122b39f3ffe399fda1a28d5b102b49faf8cb91923b44617dacf"
     end
   end
 
