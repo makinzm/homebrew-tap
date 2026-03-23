@@ -1,22 +1,22 @@
 class Mille < Formula
   desc "Architecture Checker — Rust-based multi-language architecture linter"
   homepage "https://github.com/makinzm/mille"
-  version "0.0.12"
+  version "0.0.13"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/makinzm/mille/releases/download/v0.0.12/mille-0.0.12-aarch64-apple-darwin.tar.gz"
-      sha256 "2bbf9b5c5d3ad00f6804a758c8a3f4927a9e8e6d07f4b5aff4aabdec783f9480"
+      url "https://github.com/makinzm/mille/releases/download/v0.0.13/mille-0.0.13-aarch64-apple-darwin.tar.gz"
+      sha256 "e6f9b88437af73b0b894f8d77278b30d8a1bc45e134e5932f259bb15502ce2aa"
     else
-      url "https://github.com/makinzm/mille/releases/download/v0.0.12/mille-0.0.12-x86_64-apple-darwin.tar.gz"
-      sha256 "e9f27e0ede4c3397ceb3f836f5005aa2f5083e845cc1c520c1af83e18b568f76"
+      url "https://github.com/makinzm/mille/releases/download/v0.0.13/mille-0.0.13-x86_64-apple-darwin.tar.gz"
+      sha256 "6a0afc0f5046227ad2bd9e97436b0bfef619a19d25f55ad941065c3ffcfb55ed"
     end
   end
 
   on_linux do
-    url "https://github.com/makinzm/mille/releases/download/v0.0.12/mille-0.0.12-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "f95aa096c13ab8d13fe47219e01e8ca389570f2bceaad1ae785b0907a5a233fc"
+    url "https://github.com/makinzm/mille/releases/download/v0.0.13/mille-0.0.13-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "e027e8f042adec1f97ea89164186a853a989dd7a06fb008ab9d2f49a77d24f30"
   end
 
   def install
